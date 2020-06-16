@@ -19,14 +19,8 @@
 
   <div class="container">
     <script>
-      var answer = 10 + 3;
-      document.write('10+3の結果は、' + answer + 'です')
-
-      answer = 10 - 3;
-      document.write('<br>10-3の結果は、' + answer + 'です')
-
-      answer += 10;
-      document.write('<br>' + answer)
+      var today = new Date();
+      document.write('<p>今日は、' + today.getDate() + '日です</p>');
     </script>
   </div>
 </body>
